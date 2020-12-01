@@ -129,9 +129,9 @@ A：No. The model is trained for croped face specifically.
 
 ## Reference
 
-U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation [[Paper](https://arxiv.org/abs/1907.10830)][[Code](https://github.com/znxlwm/UGATIT-pytorch)]
+U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation [[Paper](https://arxiv.org/abs/1907.10830)][[Project](https://github.com/znxlwm/UGATIT-pytorch)]
 
-PaddleSeg: End-to-End Image Segmentation Kits Based on PaddlePaddle [[Progect](https://github.com/PaddlePaddle/PaddleSeg)]
+PaddleSeg: End-to-End Image Segmentation Kits Based on PaddlePaddle [[Project](https://github.com/PaddlePaddle/PaddleSeg)]
 
-PaddleGAN: PaddlePaddle GAN library and applications [[Progect](https://github.com/PaddlePaddle/PaddleGAN)]
+PaddleGAN: PaddlePaddle GAN library and applications [[Project](https://github.com/PaddlePaddle/PaddleGAN)]
 

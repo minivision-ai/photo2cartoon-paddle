@@ -132,9 +132,9 @@ A：不能。该模型是针对本项目训练的专用模型，需先裁剪出�
 我们开源的模型是基于亚洲年轻女性训练的，对于其他人群覆盖不足，您可根据使用场景自行收集相应人群的数据进行训练。我们的[开放平台](https://ai.minivision.cn/#/coreability/cartoon)提供了能够覆盖各类人群的卡通化服务，您可前往体验。
 
 ## 参考
-U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation [[Paper](https://arxiv.org/abs/1907.10830)][[Code](https://github.com/znxlwm/UGATIT-pytorch)]
+U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation [[Paper](https://arxiv.org/abs/1907.10830)][[Project](https://github.com/znxlwm/UGATIT-pytorch)]
 
-PaddleSeg: End-to-End Image Segmentation Kits Based on PaddlePaddle [[Progect](https://github.com/PaddlePaddle/PaddleSeg)]
+PaddleSeg: End-to-End Image Segmentation Kits Based on PaddlePaddle [[Project](https://github.com/PaddlePaddle/PaddleSeg)]
 
-PaddleGAN: PaddlePaddle GAN library and applications [[Progect](https://github.com/PaddlePaddle/PaddleGAN)]
+PaddleGAN: PaddlePaddle GAN library and applications [[Project](https://github.com/PaddlePaddle/PaddleGAN)]
 
