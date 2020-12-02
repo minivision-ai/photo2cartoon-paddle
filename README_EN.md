@@ -20,7 +20,7 @@ The aim of portrait cartoon stylization is to transform real photos into cartoon
 
 The results of CycleGAN, a classic unpaired image translation method, often have obvious artifacts and are unstable. Recently, Kim et al. propose a novel normalization function (AdaLIN) and an attention module in paper "U-GAT-IT" and achieve exquisite selfie2anime results.
 
-Different from the exaggerated anime style, our cartoon style is more realistic and contains unequivocal ID information. To this end, we add a Face ID Loss (cosine distance of ID features between input image and cartoon image) to reach identity invariance. 
+Different from the exaggerated anime style, our cartoon style is more realistic and contains unequivocal ID information. In [photo2cartoon](https://github.com/minivision-ai/photo2cartoon), we add a Face ID Loss (cosine distance of ID features between input image and cartoon image) to reach identity invariance. (Face ID Loss is not added in this repo, please refer to photo2cartoon)
 
 We propose a Soft Adaptive Layer-Instance Normalization (Soft-AdaLIN) method which fuses the statistics of encoding features and decoding features in de-standardization. 
 

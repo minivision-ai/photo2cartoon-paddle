@@ -6,7 +6,7 @@
 
 **中文版** | [English Version](README_EN.md)
 
-该项目为[小视科技](https://www.minivision.cn/)卡通肖像探索项目，项目基于paddlepaddle框架实现。您可使用微信扫描下方二维码或搜索“AI卡通秀”小程序体验卡通化效果。
+该项目为[小视科技](https://www.minivision.cn/)[photo2cartoon](https://github.com/minivision-ai/photo2cartoon)项目的paddlepaddle版本。您可使用微信扫描下方二维码或搜索“AI卡通秀”小程序体验卡通化效果。
 
 <div>
   <img src='./images/QRcode.jpg' height='150px' width='150px'>
@@ -21,7 +21,7 @@
 
 Unpaired image translation流派最经典方法是CycleGAN，但原始CycleGAN的生成结果往往存在较为明显的伪影且不稳定。近期的论文U-GAT-IT提出了一种归一化方法——AdaLIN，能够自动调节Instance Norm和Layer Norm的比重，再结合attention机制能够实现精美的人像日漫风格转换。
 
-与夸张的日漫风不同，我们的卡通风格更偏写实，要求既有卡通画的简洁Q萌，又有明确的身份信息。为此我们增加了Face ID Loss，使用预训练的人脸识别模型提取照片和卡通画的ID特征，通过余弦距离来约束生成的卡通画。
+在原项目中我们还增加了Face ID Loss，使用预训练的人脸识别模型提取照片和卡通画的ID特征，通过余弦距离来约束生成的卡通画，使其更像本人。(paddle版本中暂时未加入Face ID Loss，请参见原项目)
 
 此外，我们提出了一种Soft-AdaLIN（Soft Adaptive Layer-Instance Normalization）归一化方法，在反规范化时将编码器的均值方差（照片特征）与解码器的均值方差（卡通特征）相融合。
 
