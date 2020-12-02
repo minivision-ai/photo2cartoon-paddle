@@ -44,7 +44,7 @@ We also pre-process the data to a fixed pattern to help reduce the difficulty of
 
 ```
 git clone https://github.com/minivision-ai/photo2cartoon-paddle.git
-cd ./photo2cartoon
+cd ./photo2cartoon-paddle
 ```
 
 ### Download
